@@ -1,0 +1,16 @@
+fs=frozenset()
+print(fs,type(fs))
+s={10,20,30,40}
+print(s,type(s))
+fs=frozenset(s)
+print(fs,type(fs))
+print(len(fs))
+s1={30,40,50,60}
+print(s,type(s))
+fs=frozenset(s1)
+print(fs,type(fs))
+print(s.isdisjoint(s1))
+print(s.union(s1))
+print(s.intersection(s1))
+print(s.difference(s1))
+print(s.symmetric_difference(s1))
